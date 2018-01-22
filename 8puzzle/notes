@@ -1,0 +1,22 @@
+1 (0x0)  2 (0x1)  3 (0x2)
+
+4 (1x0)  5 (1x1)  6 (1x2)
+
+7 (2x0)  8 (2x1)
+
+Manhattan: however many total +1/-1 need to be made to the current [i][j] move
+the number to the number into the correct [i][j] is the Manhattan distance
+
+
+i * N + j + 1 = correctNumber
+
+0 * 3 + 0 + 1 = 1
+0 * 3 + 1 + 1 = 2
+0 * 3 + 2 + 1 = 3
+1 * 3 + 0 + 1 = 4
+1 * 3 + 1 + 1 = 5
+1 * 3 + 2 + 1 = 6
+2 * 3 + 0 + 1 = 7
+2 * 3 + 1 + 1 = 8
+
+given 7: 
